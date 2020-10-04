@@ -1,15 +1,15 @@
-$background-color: rgb( 126, 25, 27 );
-$text-color: rgb( 200, 200, 200 );
+$background-color: rgb( 254, 248, 236 );
+$text-color: rgb( 189, 99, 126 );
 
 body {
   color: $text-color;
   background: $background-color;
   text-align: left;
   font-family: 'Helvetica', 'Arial', sans-serif;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 0;
-  padding-left: 30px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 1000;
+  padding-left: 100px;
 
 
   h1 {
@@ -37,7 +37,7 @@ body {
       padding-left: 10px;
       padding-right: 10px;
     }
-    color: red;
+    color: $text-color;
 
   }
 
@@ -58,6 +58,6 @@ body {
   }
 
   img {
-    border-radius: 20px;
+    border-radius: 500px;
   }
 }
